@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wave {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(50deg, purple, white);
+    border-radius: 12px; /* Makes the element circular */
+    margin: 7.5px;
+    transition: height 0.1s ease; /* Smooth height transition */
+}
+
