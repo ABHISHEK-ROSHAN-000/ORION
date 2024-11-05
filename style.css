@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background: linear-gradient(135deg, #29003E, #040205);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     height: 30px;
     background: linear-gradient(50deg, purple, white);
     border-radius: 12px; /* Makes the element circular */
+    border: 2px solid rgb(201, 201, 201);
     margin: 7.5px;
     transition: height 0.1s ease; /* Smooth height transition */
 }
-
