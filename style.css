@@ -17,7 +17,7 @@ body {
     height: 30px;
     background: linear-gradient(50deg, purple, white);
     border-radius: 12px; /* Makes the element circular */
-    border: 2px solid rgb(201, 201, 201);
+    border: 2px solid white;
     margin: 7.5px;
     transition: height 0.1s ease; /* Smooth height transition */
 }
