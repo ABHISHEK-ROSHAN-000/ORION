@@ -7,9 +7,18 @@
 body {
     background: linear-gradient(135deg, #29003E, #040205);
     display: flex;
+    flex-direction: column; /*new */
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
+}
+
+.wave_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px;   */
 }
 
 .wave {
@@ -20,4 +29,22 @@ body {
     border: 2px solid white;
     margin: 7.5px;
     transition: height 0.1s ease; /* Smooth height transition */
+}
+
+.record-button {
+    position: absolute; /* Position it at the bottom */
+    bottom: 70px; /* Distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for the button width */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(50deg, purple, white);
+    border: 3px solid #fff;
+  }
+
+.record-button:hover {
+    /* background: radial-gradient(circle at 70% 70%, purple, white); */
+    background: linear-gradient(30deg, purple, white);
+    border: 3px solid #fff;
 }
